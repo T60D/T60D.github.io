@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Work</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="David Van Dyke" />
+	<meta name="keywords" content="David Van Dyke" />
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+
+	</style>
+	
+	</head>
+
+	<!-- Navbar (Style Guide https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)-->
+	<!-- set class to active it on that page -->
+	
+	<!-- Navbar (Style Guide https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)-->
+	<!-- set class to active it on that page -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-faded sticky-top">
+		<div class="container">
+		<!-- Team name -->
+ 		<a class="navbar-brand" href="index.html"><img src="images/logosmall.png" alt="David Van Dyke" height="20"></a>
+ 		<!-- Buutton -->
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<!-- Links -->
+ 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    		<ul class="navbar-nav">
+      			<li class="nav-item">
+        			<a class="nav-link" href="about.html">About</a>
+      			<li class="nav-item">
+      			</li>
+       				<a class="nav-link" href="education.html">Education</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="projects.html">Projects</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link active" href="work.html">Work</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="contact.html">Contact</a>
+      			</li>
+    		</ul> 
+  		</div>
+  		</div>
+	</nav>
+
+
+	<!--End Navbar -->
+
+	<!--Start Body-->
+	<body>
+		<section id="intro">
+
+			<div class = "container">
+				<div class = "head">
+					<h3>Work</h3>
+				</div>
+				<hr>
+				<div class = "row">
+					<div class = "col-md-6 col-12">
+						<img class = "img-fluid" src="images/phantom.jpg">
+					</div>
+					<div class = "col-md-6 col-12">
+						<h4>Assistant Researcher in Biomedical Manufacturing</h4>
+						<p><i>Shih Lab, University of Michigan, May 2018-Present</i></p>
+						<p>As a part of the SURE undergraduate summer research program, I worked in the University of Michigan's lab in biomedical manufacturing under professor Albert Shih. My research focused on using ultrasounds to determine the thickness of spinal bone during surgery, making phantoms to mimic rat brain behavior during probe insertion, and creating skullcaps to hold probes in rat brains over long periods.</p>
+					</div>
+					<div class = "col-12">
+						<button class="collapsible">Read more about my research</button>
+						<div class="content">
+							<br>
+				 				<div class = "row">
+				 					<div class = "col-12 col-sm-5">
+				 						<h4>Measuring bone thickness during spinal surgery</h4>
+				 					</div>
+				 					<div class = "col-12 col-sm-7">
+				 						<p>During spinal surgery, surgeons use ball end mills to machine away spinal bone to reach the soft dura underneath. Below this dura are nerves and it is incredibly important that the surgeons not accidentally drill through this. Surgeons currently take MRI scans before the surgery starts to estimate the bone thickness and my research focused on finding alternative methods.</p>
+				 					</div>
+				 					<div class = "col-sm-6 col-md-7 col-12">
+				 						<p>I conducted preliminary tests to asses the viability of using ultrasound technology to measure the thickness of spinal bone. I machined bone samples and used various frequencies of ultrasounds to see how effectively the waves penetrated.<br>Additionally, I investigated whether you could determine the thickness of the sample by monitoring the force/torque on the drill while drilling. I used a dynamometer and oscilloscope to record the force/torque on a rib sample while drilling and processed the data in Matlab to find relationships between layer thickness and force.</p>
+				 					</div>
+				 					<div class = "col-sm-6 col-md-5 col-12">
+				 						<img class="img-fluid" src="images/ultrasound.png">
+				 					</div>
+				 				</div>
+				 				<div class = "row">
+				 					<div class = "col-12 col-sm-3">
+				 						<h4><br>Rat brain phantoms</h4>
+				 					</div>
+				 					<div class = "col-12 col-sm-9">
+				 						<p><br>When designing probes to insert into brains for monitoring signals, you want probes that are thin and soft so the brain tissue does not identify it as foreign at attack it. However, when making a probe this pliable, it may buckle upon contact with the brain and be unable to enter. Currently the industry relies on inaccurate methods to test their probes like using sausages but my research focused on making the worlds first phantom to accurately model the insertion of a microwire into a rat brain.</p>
+				 					</div>
+				 					<div class = "col-sm-5 col-md-6 col-12">
+				 						<p>My phantoms are made from PVC plastic. By changing the ratio of polymer and softener in the solution, I can adjust the hardness of each phantom. I then conducted factorial tests to change each parameter, see how each one affects various parts of the insertion plot such as slope or penetration force and generate regression equations to predict the behavior given any quantity of each compound. Using the results from previous in-vivo tests on a rat brain, I created phantoms that closely mimicked the actual behavior.</p>
+				 					</div>
+				 					<div class = "col-sm-7 col-md-6 col-12">
+				 						<img class="img-fluid" src="images/insertionplot.png">
+				 					</div>
+				 					<div class = "col-12">
+				 						
+				 					</div>
+				 				</div>
+				 				<div class = "row">
+				 					<div class = "col-12 col-sm-4">
+				 						<h4><br>3D printed rat brain skullcap</h4>
+				 					</div>
+				 					<div class = "col-12 col-sm-8">
+				 						<p><br>When conducting long term tests on the brain activity of rats, you need a cap that securely mounts onto the skull of the rat while holding the probes in place. Additionally, the cap helps prevent infection after their surgery by blocking the entry of foreign objects. I designed a cap that improved on previous designs by perfectly conforming to the many ridges and curves on a rat skull.</p>
+				 					</div>
+				 					<div class = "col-sm-5 col-md-6 col-12">
+				 						<p><br>Rat skulls have many contours that make attaching and sealing a cap to it difficult. Using a 3D scan of a rat skull, I generated a solid model of a rat skull that included all of the necessary details such as the bregma and lambda. From this, I created a CAD model in SolidWorks that perfectly conformed to this shape. Since every rat skull is slightly different, also I made the model easily configurable so that the surgeon could make changes on the fly and 3D print a cap specially for each rat. My cap was tested on a live rat that successfully prevented infections and stayed secured to the rats skull for 6 weeks.</p>
+				 					</div>
+				 					<div class = "col-sm-7 col-md-6 col-12">
+				 						<img class="img-fluid" src="images/ratcap.png">
+				 				</div>
+				 				</div>
+				 				
+				 				<div class = "row">
+				 					<div class = "col-12">
+				 						<hr>
+				 					</div>
+				 				</div>
+
+				 			<br><br>
+						</div>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-md-6 col-12">
+						<img class = "img-fluid" src="images/traincar.png">
+					</div>
+					<div class = "col-md-6 col-12">
+						<h4>SolidWorks CAD Designer</h4>
+						<p><i>Tangent Scale Models, May 2017-Present</i></p>
+						<p>Tangent Scale Models is a hobby company that makes 1:87.1 model train cars for hobbyists and train enthusiasts. The cars Tangent makes are among the most accurate and detailed in the world. I designed 5 1950's era model train box cars using reference pictures and the original engineering drawings. What made this job difficult was that these pictures were very low resolution and the drawings, since they were 50 years old, were in poor shape and missing dimensions. Through Tangent, I learned how to work around incomplete information.</p>
+					</div>
+
+					<!--
+					<div class = "col-12">
+						<button class="collapsible">Read more about Tangent</button>
+						<div class="content">
+				 			<p>More info to come later</p>
+						</div>
+					</div>
+				-->
+				</div>	
+
+				<div class = "row">
+					<div class = "col-md-6 col-12">
+						<img class = "img-fluid" src="images/totoro.png">
+					</div>
+					<div class = "col-md-6 col-12">
+						<h4>Etsy Store Owner</h4>
+						<p><i>Belly Stripes, May 2016-Present</i></p>
+						<p>The summer after my freshman year of college, I started an Etsy store. I make stuffed animals modeled after "Totoro", a character from the Miyazaki movie My Neighbor Totoro. Sewing had always been a hobby of mine and I decided to turn it into a small business. I optimized my design such that I could produce each Totoro for under $3 within 2 hours apiece. I created an Etsy store front for my Totoro's and have fulfilled orders as far as the UK and Finland.</p>
+						<a href="https://www.etsy.com/shop/bellystripes">Store Link</a><br>
+						<a href="files/Stencil.pdf">Download my pattern</a><br>
+						<a href="https://www.youtube.com/watch?v=stcUtav87Xo">How it's made</a><br>
+					</div>
+					<div class = "col-12 offset-0">
+						<button class="collapsible">See more Totoro pictures</button>
+						<div class="content">
+							<br>
+					 		<div class = "row">
+					 			<div class="col-sm-6 col-12">
+									<img class="img-fluid" src="images/many_plain.jpg">
+					 			</div>
+					 			<div class = "col-sm-6 col-12">
+					 				<img class="img-fluid" src="images/many_smile.jpg">
+					 			</div>
+					 			<div class = "col-12">
+					 				<img class="img-fluid" src="images/totoro_wide.png">
+					 			</div>
+					 			<div class = "col-12">
+					 				<img class="img-fluid" src="images/monster.jpg">
+					 			</div>
+					 		</div>
+
+					 		<div class = "row">
+					 			<div class = "col-12">
+					 				<hr>
+					 			</div>
+					 		</div>
+
+						</div>
+					</div>
+
+					<!--
+					<div class = "col-12">
+						<button class="collapsible">Read more about Tangent</button>
+						<div class="content">
+				 			<p>More info to come later</p>
+						</div>
+					</div>
+				-->
+				</div>	
+
+				<div class = "row">
+					<div class = "col-12">
+						<br>
+						<h4>Construction Laborer</h4>
+						<p><i>HV Affiliates, July 2016-August 2016</i></p>
+						<p>I worked as a construction laborer completing odd jobs and punch-list work on a construction site. I moved materials, caulked bathrooms, removed floor boards and siding, and cleaned finished rooms for multiple apartments. Additionally, I installed security systems for two buildings to prevent theft.</p>
+					</div>
+				</div>
+
+				<div class = "row">
+					<div class = "col-12">
+						<br>
+						<h4>Computer Technician</h4>
+						<p><i>WW-P School District, June 2016=5-August 2015</i></p>
+						<p>I spent the summer before my first semester of college working in my high schools computer department. I worked with 3 other interns to image and clean all of the computers in the school district to prepare them for the coming school year. Our team prepared hundreds of windows and mac computers and enrolled over 2000 chromebooks.</p>
+					</div>
+				</div>			
+			</div>
+
+				
+		</section>
+
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    } 
+		  });
+		}
+	</script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</body>
+
+</html>
