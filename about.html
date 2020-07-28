@@ -1,29 +1,137 @@
----
-title: About
-description: We've built an amazing team of developers, marketers, designers and sales people.
-image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
----
+<!DOCTYPE html>
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 class="editable">Our Story</h1>
-			<p class="subtext editable">We have an extremely talented team whose sole goal is to bring you closer to the people around you.</p>
-		</div>
-	</div>
-</section>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>About</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="David Van Dyke" />
+	<meta name="keywords" content="David Van Dyke" />
 
-<section class="pad">
-	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-				<li>
-					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+	</style>
+	</head>
+
+	<!-- Navbar (Style Guide https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)-->
+	<!-- set class to active it on that page -->
+	
+	<!-- Navbar (Style Guide https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)-->
+	<!-- set class to active it on that page -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-faded sticky-top">
+		<div class="container">
+		<!-- Team name -->
+ 		<a class="navbar-brand" href="index"><img src="images/logosmall.png" alt="David Van Dyke" height="20"></a>
+ 		<!-- Buutton -->
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<!-- Links -->
+ 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    		<ul class="navbar-nav">
+      			<li class="nav-item">
+        			<a class="nav-link active" href="about">About</a>
+      			<li class="nav-item">
+      			</li>
+       				<a class="nav-link" href="education">Education</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="projects">Projects</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="work">Work</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="contact">Contact</a>
+      			</li>
+    		</ul> 
+  		</div>
+  		</div>
+	</nav>
+
+
+	<!--End Navbar -->
+
+	<!--Start Body-->
+	<body>
+		<section id="intro">
+
+			<div class = "container">
+				<div class = "head">
+					<h3>About</h3>
+				</div>
+				<hr>
+
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-7">
+							<h4>Hello</h4>
+							<p>My name is David! I am an incoming masters student at Stanford in mechanical engineering. I completed my bachelors at the University of Michigan where I majored in mechanical engineering with a minor in electrical engineering. I have a strong interest in mechanical and electrical design for consumer products.</p>
+					</div>
+					<div class="col-12 col-sm-6 col-md-5">
+						<img class="img-fluid" src="images/weld.jpg">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12">
+						<p>I was born on March 3rd in central New Jersey (yes it's real) and lived there my entire life. I became interested in engineering at a young age thanks to my parents who were MIT grads and worked in transportation. I eventually chose mechanical engineering and my current university due to my hobby of modifying Nerf guns. During high school, I would take Nerf guns apart and replace key components such as the springs and barrel to improve performance. I eventually moved onto making my own Nerf guns from PVC pipe and polycarbonate tubing using designs I found online. This hobby made me interested in designing and manufacturing mechanical systems and is why I am studying mechanical engineering.</br><br/>
+
+						While I don't spend as much time playing with toy guns as I used to, I found many other projects to work on in college. I spent 3.5 years on the Michigan Hybrid racing team where I designed and TIG welded our chassis and led our largest division. I also started a startup called "Thettle" where I built prototypes and competed in pitch competitions. Additionally, I manage an Etsy store where I sell stuffed animals I make and am a member of multiple engineering honors organizations. I was also involved in biomedical manufacturing research where I built the worlds best phantoms for mimicking the insertion of micro electrodes into a rat brain.<br/><br/>
+
+						The thing about me is that I am never the type of person who focuses purely on one thing. I like to jump on many different projects and always seek to expand my skill set. If you take a look through the rest of this website, you will see that I have been involved in a wide variety of projects ranging from rat brains to all-terrain wheelchairs.<br><br>
+						</p> 
+					</div>
+				</div>
+
+				<!-- <div class="row">
+					<div class="col-11 col-offset-1">
+						<p><i>Fun Things I Like</i></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-sm-4 col-offset-1">
+						<p><i>Food</i><br/>
+							Cheeseburgers<br/>
+							Butter Chicken<br/>
+							Chili<br/>
+						</p>
+					</div>
+					<div class="col-12 col-sm-4">
+						<p><i>Games</i><br/>
+							Breath of the Wild<br/>
+							Paper Mario<br/>
+							Bioshock Infinite<br/>
+							Team Fortress 2<br/>
+						</p>
+					</div>
+					<div class="col-12 col-sm-3">
+						<p><i>Other</i><br/>
+							Jeans<br/>
+							Boots<br/>
+							Computers<br/>
+							Welding<br/>
+						</p>
+					</div>
+				</div> -->
+
+
+			</div>
+
+				
+		</section>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</body>
+
+</html>

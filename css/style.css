@@ -1,0 +1,426 @@
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Large white lext for frontpage*/
+h1 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10;
+  margin: 0 0 30px 0;
+  letter-spacing: 2vw;
+  font-size: 4vw;
+
+}
+@media screen and (min-width: 1000px) {
+  
+}
+
+/*Smaller white text for front page*/
+h2 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10;
+  margin: 0 0 30px 0;
+  letter-spacing: 0.5vw;
+  font-size: 2vw;
+  line-height: 25px;
+
+}
+
+/*headers for actual pages*/
+h3 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10;
+  margin: 0 auto 0px 5;
+  letter-spacing: 12px;
+  font-size: 32px;
+}
+
+/*Sub headers for actual pages*/
+h4 {
+  color: #131313;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10;
+  margin: 0 auto 0px 5;
+  letter-spacing: 6px;
+  font-size: 24px;
+}
+
+/*Large white lext for frontpage*/
+h5 {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  margin: 0 0 30px 0;
+  letter-spacing: 2vw;
+  font-size: 4vw;
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    letter-spacing: 24px;
+    font-size: 48px;
+  }
+  
+  h2 {
+    letter-spacing: 6px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  h5 {
+    letter-spacing: 24px;
+    font-size: 48px;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    letter-spacing: 12px;
+    font-size: 24px;
+  }
+  
+  h2 {
+    letter-spacing: 3px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h5 {
+    letter-spacing: 12px;
+    font-size: 24px;
+  }
+
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.tab2 {
+  padding-left: 2em;
+}
+
+.tab1 {
+  padding-left: 1em;
+}
+
+.animated{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0s;
+}
+
+
+.fadeOffset1{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+}
+.fadeOffset2{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.3s;
+}
+.fadeOffset3{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.4s;
+}
+.fadeOffset4{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.5s;
+}
+.fadeOffset5{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.6s;
+}
+.fadeOffset6{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.7s;
+}
+.fadeOffset7{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.8s;
+}
+
+.fadeFirst{
+  -webkit-animation-duration: 2s;
+}
+
+.slideTeam{
+  -webkit-animation-duration: 1s;
+}
+
+.offset1{
+  -webkit-animation-delay: 0.2s;
+}
+
+.navbar{
+  background-color: #131313;
+}
+
+/*Headers for actual pages*/
+.head{
+  margin: 10px auto;
+  border-bottom-width: 1px;
+  border-bottom-color: #aaaaaa;
+  border-bottom-style: solid;
+  width: 100%;
+  padding: 0;
+}
+
+.bottomBorder{
+  margin: 10px auto;
+  border-bottom-width: 1px;
+  border-bottom-color: #aaaaaa;
+  border-bottom-style: solid;
+  width: 100%;
+  padding: 0;
+}
+
+.carnumber{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10;
+  letter-spacing: 15px;
+  font-size: 30px;
+}
+
+//Hover over picture style guide http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/;
+.hvrbox,
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  color: #131313;
+  font-weight: 8;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/hybridcar.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_back{
+  background-color:#FFFFFF;
+  padding: 40px;
+}
+
+/*Model image css */
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Collapse text
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #FFF;
+  color: #468499;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  text-indent: 5%;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+  background-color: #dfdfdf;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredImage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.pad{
+  padding: 0px 0px 0px 10px;
+}
+
+body {
+    padding-bottom: 75px;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+/*End model css*/
+
+video{
+  width: 80%;
+}
+@media screen and (max-width: 700px) {
+  video {
+    width:400px;
+  }
+}
+
+@media (max-width: 768px) {
+html, body {
+width: auto !important;
+overflow-x: hidden !important;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
+}
