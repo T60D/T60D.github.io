@@ -144,7 +144,7 @@ Outstanding Peer Mentor, ENGR 100 Section 600
                 <p>Designed parts at Waymo and used the 3DExperince PLM to access parts.</p>
             </div>
 
-            <div class = "col-12 col-md-66">
+            <div class = "col-12 col-md-6">
                 <h4>Fusion 360</h4>
                 <p>Designed the 3D printed frame for the Alulu Camera.</p>
             </div>
