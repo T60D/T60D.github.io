@@ -8,13 +8,13 @@ layout: default
 title: Home
 ---
 
-# Hello
+# Hello there
 I am a mechanical engineer with a passion for solving problems and designing consumer products. I love using mechatronics to make the everyday lives of people easier. Check out my portfilio for a list of all my projects and work.  
 
 ---
 
 <div class = "row">
-        <h2>Experiences</h2>
+        <h2>Highlights</h2>
         <ul>
         <li>Waymo mechanical engineering intern</li>
         <li>Co-founder and designer of a camera invention and kickstarter</li>
@@ -22,7 +22,6 @@ I am a mechanical engineer with a passion for solving problems and designing con
         <li>Winner of three UMich Makeathon competitions</li>
         <li>Researcher in modeling rat brains</li>
         <li>Model train designer</li>
-        <li>UMich engineering grad, with honors</li>
         </ul>
 </div>
 

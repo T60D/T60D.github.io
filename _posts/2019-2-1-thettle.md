@@ -5,7 +5,7 @@ featured-img: thettle_banner
 categories: [Mechanical, Electrical, Entrepreneurship, Design]
 ---
 
-Thettle is a startup I created along with two other people. Our goal wass to make a product that combines an electric kettle with a portable thermos which will allow consumers to make hot beverages wherever they go. I was in charge of designing and manufacturing our product and worked on the business side of our operation as well. We built two prototypes, wrote a business plan, and participated in startup competitions.
+Thettle is a startup I created along with two other people. Our goal was to make a product that combines an electric kettle with a portable thermos which will allow consumers to make hot beverages wherever they go. I was in charge of designing and manufacturing our product and worked on the business side of our operation as well. We built two prototypes, wrote a business plan, and participated in startup competitions.
 
 [Read the full report (pdf)](/files/Thettle%20Report.pdf)
 
