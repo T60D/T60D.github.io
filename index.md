@@ -48,28 +48,39 @@ I am a mechanical engineer with a passion for solving problems and designing con
         Minor in Electrical Engineering<br>
         GPA: 3.9/4.0<br>
         </p>
+
         <h4>Classes</h4>
         <p>ME452 - Design for Manufacturability<br>
         EECS461 - Embedded Control Systems<br>
         </p>
+
         <div class = "row">
-            <div class = "col-12 col-md-6">
+            <div class = "col-12">
                 <h4>Organizations</h4>
-                <ul>
+            </div>
+            <div class = "col-6">
                 <li>Michigan Hybrid/Electric Racing</li>
+            </div>
+            <div class = "col-6">
                 <li>Tau Beta Pi</li>
+            </div>
+            <div class = "col-6">
                 <li>Phi Kappa Phi</li>
+            </div>
+            <div class = "col-6">
                 <li>Mdraw</li>
-                </ul>
             </div>
-            <div class = "col-12 col-md-6">
+        </div>
+        
+        <div class = "row">
+            <div class = "col-12">
                 <h4>Awards</h4>
-                <ul>
-                <li>Robert M. Caddel Memorial Scholarship</li>
-                <li>Tau Beta Pi MI-G First Year Student Award</li>
-                <li>Outstanding Peer Mentor, ENGR 100 Section 600</li>
-                </ul>
             </div>
+            <ul>
+            <li>Robert M. Caddel Memorial Scholarship</li>
+            <li>Tau Beta Pi MI-G First Year Student Award</li>
+            <li>Outstanding Peer Mentor, ENGR 100 Section 600</li>
+            </ul>
         </div>
     </div>
 </div>
