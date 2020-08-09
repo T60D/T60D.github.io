@@ -9,7 +9,7 @@ For my mechanical engineering senior design project, I worked on a team of 7 peo
 
 [Read the full report (pdf)](files/ME450_F18_FinalReport_7.pdf)
 
-My primary role on the team was the high voltage accumulator and low voltage controls system lead. I had the most experience with electrical systems and designed an electrical system capable of powering and controlling four 800W electric motors for our powertrain. The biggest challenges with building my design was time and budget. I only had one semester to complete this project and a shoestring budget, but I successfully built a working electrical system within the time constraint for only $382.
+My primary role on the team was the high voltage accumulator and low voltage controls system lead. I had the most experience with electronics and designed an electrical system capable of powering and controlling four 800W electric motors for our powertrain. The biggest challenges with building my design was time and budget. I only had one semester to complete this project and a shoestring budget, but I successfully built a working electrical system within the time constraint for only $382.
 
 ![Wiring Diagram](/assets/img/posts/wheelchair/wheelchairdiagram.jpg)
 

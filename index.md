@@ -9,20 +9,23 @@ title: Home
 ---
 
 # Hello there
-I am a mechanical engineer with a passion for solving problems and designing consumer products. I love using mechatronics to make the everyday lives of people easier. Check out my portfilio for a list of all my projects and work.  
+I am a mechanical engineer with a passion for solving problems and designing consumer products. I love using mechatronics to make the everyday lives of people easier. Check out my portfolio for a list of all my projects and work.  
 
 ---
 
 <div class = "row">
+    <div class = "col-12 col-md-2">
         <h2>Highlights</h2>
+    </div>
+    <div class = "col-12 col-md-10">
         <ul>
         <li>Waymo mechanical engineering intern</li>
         <li>Co-founder and designer of a camera invention and kickstarter</li>
         <li>Division lead on a student FSAE team</li>
         <li>Winner of three UMich Makeathon competitions</li>
-        <li>Researcher in modeling rat brains</li>
         <li>Model train designer</li>
         </ul>
+    </div>
 </div>
 
  ---
@@ -117,7 +120,7 @@ Outstanding Peer Mentor, ENGR 100 Section 600
                 <ul>
                 <li>On the Michigan Hybrid Racing team, I was a division lead for one year. I led mechanical design and manufacturing of our projects and helped new members learn how to become engineers. My division tripled in size over the year thanks to my leadership.</li>
                 
-                <li>At the University of Michigan, I started a certification program that allowed students to take a test to receive a SolidWorks certification. I made documents detailing what the exam covers and how students should prepare as well as manage the sign up list. Over 100 people to date have received certifications thanks to my efforts.</li>
+                <li>At the University of Michigan, I started and ran a certification program that allowed students to take a test to receive a SolidWorks certification. Over 100 people to date have received certifications thanks to my efforts.</li>
                 </ul>
             </div>
         </div>
@@ -139,7 +142,7 @@ Outstanding Peer Mentor, ENGR 100 Section 600
 
             <div class = "col-12 col-md-6">
                 <h4>Catia</h4>
-                <p>Designed parts at Waymo and used the 3DExperince PLM to access parts.</p>
+                <p>Designed parts at Waymo and used the 3DExperience PLM to access parts.</p>
             </div>
 
             <div class = "col-12 col-md-6">
@@ -155,7 +158,7 @@ Outstanding Peer Mentor, ENGR 100 Section 600
             
             <div class = "col-12 col-md-6">
                 <h4>Ansys</h4>
-                <p>Used mechanical FEA to analyze the suspension compoents on the Michigan Hybrid Racecar.</p>
+                <p>Used mechanical FEA to analyze the suspension components on the Michigan Hybrid Racecar.</p>
             </div>
 
             <div class = "col-12 col-md-6">
@@ -187,7 +190,7 @@ Outstanding Peer Mentor, ENGR 100 Section 600
 
             <div class = "col-12 col-md-6">
                 <h4>C</h4>
-                <p>Programmed autonomous robots, message decoders, and thermal printer drivers for smart product design classes and my Alulu Camera project.</p>
+                <p>Programmed autonomous robots for my smart product design classes and thermal print drivers for my Alulu Camera project.</p>
             </div>
 
             <div class = "col-12 col-md-6">

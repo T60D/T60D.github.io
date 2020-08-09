@@ -26,6 +26,6 @@ When conducting long term tests on the brain activity of rats, you need a cap th
 
 ## Measuring Bone Thickness during Spinal Surgery
 
-During spinal surgery, surgeons use ball end mills to machine away spinal bone to reach the soft dura underneath. Below this dura are nerves and it is incredibly important that the surgeons not accidentally drill through this. Surgeons currently take MRI scans before the surgery starts to estimate the bone thickness and my research focused on finding alternative methods.
+During spinal surgery, surgeons use ball end mills to machine away spinal bone to reach the soft dura underneath. Below this dura are nerves and it is incredibly important that the surgeons not accidentally drill through this. Surgeons currently take MRI scans before the surgery starts to estimate the bone thickness and my research focused on finding alternative methods. I investigated the viability of using ultrasounds or measuring the torque on a drill to see if this was possible. My tests showed that neither of these methods was likely to work which saved us valuable time from pursuing a nonviable project.
 
 ![Ultrasound Bone](/assets/img/posts/research/ultrasound.png)

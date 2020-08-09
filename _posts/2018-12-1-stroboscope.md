@@ -12,3 +12,5 @@ As a personal project, I made a stroboscope. It features 24 images on a spinning
 [Read the full report](https://docs.google.com/document/d/1PPweFZunP_6SlTjMInhWULy4hbzQt_HC-bJDKfUf6Gg/edit?usp=sharing)
 
 ![Stroboscope](/assets/img/posts/stroboscope/bigstrobe.jpg)
+
+The stroboscope is controlled by an Arduino that drives a stepper motor to rotate at a speed of one rotation per second. It also makes the LED lights under each picture light up for a few milliseconds at a rate of 24 times/second. The body of the design consists of MDF and 3D printed parts.
