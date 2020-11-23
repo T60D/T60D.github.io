@@ -40,7 +40,9 @@ I am a mechanical engineer with a passion for solving problems and designing con
         </p>
         <h4>Classes</h4>
         <p>ME310 - Design and Innovation<br>
-        ME218 - Smart Product Design<br>
+        ME218 - Smart Product Design<br><br>
+        CS110 - Principles of Computer Systems<br>
+        CS238 - Decision Making Under Uncertainty<br>
         </p>
     </div>
     <div class = "col-12 col-md-6">
@@ -195,7 +197,7 @@ Outstanding Peer Mentor, ENGR 100 Section 600
 
             <div class = "col-12 col-md-6">
                 <h4>C++</h4>
-                <p>Learned in the UMich sophomore level class,  EECS280 Intro to Programming Structures.</p>
+                <p>Used in the CS110, Principles of Computer Systems class at Stanford</p>
             </div>
 
             <div class = "col-12 col-md-6">
