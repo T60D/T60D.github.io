@@ -42,6 +42,7 @@ I am a mechanical engineer with a passion for solving problems and designing con
         <p>ME310 - Design and Innovation<br>
         ME218 - Smart Product Design<br><br>
         CS110 - Principles of Computer Systems<br>
+        CS230 - Deep Learning<br>
         CS238 - Decision Making Under Uncertainty<br>
         </p>
     </div>
@@ -186,18 +187,28 @@ Outstanding Peer Mentor, ENGR 100 Section 600
             </div>
 
             <div class = "col-12 col-md-6">
-                <h4>Simulink</h4>
-                <p>Simulated a basic autonomous car for an embedded controls system class.</p>
-            </div>
-
-            <div class = "col-12 col-md-6">
                 <h4>C</h4>
                 <p>Programmed autonomous robots for my smart product design classes and thermal print drivers for my Alulu Camera project.</p>
             </div>
 
             <div class = "col-12 col-md-6">
                 <h4>C++</h4>
-                <p>Used in the CS110, Principles of Computer Systems class at Stanford</p>
+                <p>Used in the CS110, Principles of Computer Systems class at Stanford.</p>
+            </div>
+
+            <div class = "col-12 col-md-6">
+                <h4>Python</h4>
+                <p>Used in the CS230, Deep Learning class at Stanford.</p>
+            </div>
+
+            <div class = "col-12 col-md-6">
+                <h4>Kotlin</h4>
+                <p>Built an android app capable of creating hints for spymasters in a game of Codenames.</p>
+            </div>
+
+            <div class = "col-12 col-md-6">
+                <h4>Simulink</h4>
+                <p>Simulated a basic autonomous car for an embedded controls system class.</p>
             </div>
 
             <div class = "col-12 col-md-6">
